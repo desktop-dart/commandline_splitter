@@ -2,7 +2,7 @@
 /// with Process.start or Process.run.
 ///
 /// Example:
-///     split("""bash -c "uname -a" """); => [bash, -c, "uname -a"]
+///     split('bash -c "uname -a"'); => [bash, -c, "uname -a"]
 List<String> split(String command) {
   final ret = <String>[];
   command = command.trim();

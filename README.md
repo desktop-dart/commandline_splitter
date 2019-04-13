@@ -1,22 +1,15 @@
-A library for Dart developers.
+# Command line splitter
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+Splits command line string into a list of individual parts suitable for using with Process.start or Process.run.
 
-## Usage
+Similar to [shlex.split](https://docs.python.org/2/library/shlex.html) in python.
 
-A simple usage example:
+## Example
 
 ```dart
 import 'package:commandline_splitter/commandline_splitter.dart';
 
 main() {
-  var awesome = new Awesome();
+  print(split('bash -c "uname -a"')); // => [bash, -c, "uname -a"]
 }
 ```
-
-## Features and bugs
-
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: http://example.com/issues/replaceme

@@ -1,6 +1,6 @@
 name: commandline_splitter
 description: Splits command line string into a list of individual parts suitable for using with Process.start or Process.run.
-version: 1.5.1
+version: 1.5.2
 homepage: https://github.com/desktop-dart/commandline_splitter
 author: Ravi Teja Gudapati <tejainece@gmail.com>
 
